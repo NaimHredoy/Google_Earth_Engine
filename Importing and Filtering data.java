@@ -15,5 +15,5 @@ print (aoi.size());
 //select the median pixel value from all images
 var median= aoi.median();
 
-//map visualization
+//map visualization where vision is my custom band combination
 Map.addLayer(median, vision,"My map",true, 1)
